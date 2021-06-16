@@ -30,11 +30,17 @@ class ZwiftTakeHomeTestCases {
 
 	 @BeforeEach
 	 void setUp() {
-		 System.setProperty("webdriver.chrome.driver","chromedriver.exe");   
-	      driver = new ChromeDriver();
+		 
+		  System.setProperty("webdriver.chrome.driver","chromedriver.exe");   
+	      
+		  driver = new ChromeDriver();
+	      
 	      driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	      
 	      driver.get("https://www.zwift.com/");
+	      
 	      testZwiftHomePage = new ZwiftHomePage(driver);
+	      
 	      if (testZwiftHomePage.trusteConsentBtn.isDisplayed() ){
 	    	   testZwiftHomePage.trusteConsentBtn.click();
 	      }
@@ -44,8 +50,10 @@ class ZwiftTakeHomeTestCases {
 
 	  @AfterEach
 	  void tearDown( ) {
-		   driver.close();
-	   }
+		   
+		  driver.close();
+	   
+	  }
 
 	  @Test
 	  public void validate_zwift_home_page_elements() {   
