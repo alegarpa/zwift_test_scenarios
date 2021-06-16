@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * @author hyuge_weeb
+ * @author alegarpa
  *
  */
 public class ZwiftHomePage {

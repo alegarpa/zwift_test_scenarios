@@ -18,7 +18,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 /**
- * @author hyuge_weeb
+ * @author alegarpa
  *
  */
 
