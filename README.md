@@ -11,7 +11,7 @@ Enjoy!
 	
 	Stopping at Step 4
 	
-	**Let me know if the above is bad practive by the way.  I'm still trying to grapple with doing that morally. **
+	**Let me know if the above is bad practive by the way.  I'm still trying to grapple with doing that morally.**
 
 2.Download Google Chrome: 
 <https://www.google.com/chrome/browser-tools/?xpv=4&brand=NMEO&geo=US&gclid=CjwKCAjwn6GGBhADEiwAruUcKnCUk6iMPtkG01atw2jZkGXNa1Ef8DHUp7qQoYiD13JLq0nvVX5gHBoCydIQAvD_BwE&gclsrc=aw.ds>
