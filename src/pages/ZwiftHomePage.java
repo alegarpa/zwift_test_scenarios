@@ -24,7 +24,6 @@ public class ZwiftHomePage {
 	Actions actions;
 	WebDriverWait wait;
 	
-	
 	/**
 	 * "Test-ids"
 	 */
@@ -53,8 +52,6 @@ public class ZwiftHomePage {
 	@FindBy(xpath="//*[@id=\"__next\"]/div/div[1]/div[3]/div[5]/div/div/div[1]/div[2]/div/div/div/div[2]/span/button")
 	public WebElement learn_more_community_btn;
 	
-	
-	
 	/**
 	 * @param driver The Selenium webDriver we'll attach our webElements too. 
 	 */
@@ -77,7 +74,6 @@ public class ZwiftHomePage {
 		this.actions.perform();
 	}
 	
-	 
 	public void navigateToEventsPage() {
 		
 		this.wait.until(ExpectedConditions.elementToBeClickable(sideNavigationBtn));
@@ -86,6 +82,4 @@ public class ZwiftHomePage {
 		eventsHref.click();
 	}
 	
-	
-
 }

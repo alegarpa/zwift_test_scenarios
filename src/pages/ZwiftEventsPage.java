@@ -24,7 +24,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ZwiftEventsPage {
 	
-	
 	/**
 	 * Constructors
 	 */
@@ -32,8 +31,6 @@ public class ZwiftEventsPage {
 	Actions actions;
 	WebDriverWait wait;
 	HashMap<String, WebElement> orignal_events_list;
-	
-	
 	
 	/**
 	 * "Test-ids"
@@ -93,16 +90,15 @@ public class ZwiftEventsPage {
 		this.actions = new Actions(this.driver);
 		this.wait = new WebDriverWait(this.driver, 10);
 		this.orignal_events_list = new HashMap<String, WebElement>();
-		
-		
+			
 	}
 	
 	public void moveToPageElement(WebElement element) {
 		
 		this.actions.moveToElement(element);
 		this.actions.perform();
-	}
 	
+	}
 	
 	public boolean isClassActive(WebElement webelement) {
 		
@@ -119,11 +115,9 @@ public class ZwiftEventsPage {
 		
 	}
 		
-	
-	/**
+	/** 
 	 * 
 	 * Populates this.orignal_events_list to keep track of all the events generated in the EventsPage.
-	 * 
 	 */
 	public void populateEventsList () {
 		
@@ -141,9 +135,7 @@ public class ZwiftEventsPage {
 		}
 		
 	}
-	
-	
-	
+		
 	/**
 	 * 
 	 * Compares the list with the HashMap generated when called:
