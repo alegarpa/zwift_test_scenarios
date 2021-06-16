@@ -55,8 +55,12 @@ class ZwiftTakeHomeTestCases {
 	   
 	  }
 
-	  @Test
-	  public void validate_zwift_home_page_elements() {   
+	 /**
+	 * Validates that the Zwift home page loads successfully by checking expected DOM elements. 
+	 */
+	@Test
+	  public void validate_zwift_home_page_elements() {
+		  
 	      
 		  testZwiftHomePage.moveToPageElement(testZwiftHomePage.signInHref);
 	      assertTrue((testZwiftHomePage.signInHref.isDisplayed()));
@@ -73,9 +77,14 @@ class ZwiftTakeHomeTestCases {
 	       
 	}
 	   
-	@Test
-	public void test_event_filters() {
+	/**
+	 * Tests some utility methods in the ZwiftEventPage for manipulating the filtered options.
+	 * It wasn't required for the assignment but I had already written it. 
+	 */
+	//@Test
+	public void test_event_filters_activity() {
 
+		
 		testZwiftHomePage.navigateToEventsPage();
 		
 		testZwiftEventPage = new ZwiftEventsPage(driver);
@@ -120,6 +129,9 @@ class ZwiftTakeHomeTestCases {
 		
 	}
 	
+	/**
+	 * Tests that that the default events list is updated when a filter is applied.
+	 */
 	@Test
 	public void test_event_filtration()  {
 		
