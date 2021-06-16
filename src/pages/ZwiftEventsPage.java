@@ -21,18 +21,6 @@ import org.openqa.selenium.support.PageFactory;
  * @author hyuge_weeb
  *
  */
-/**
- * @author hyuge_weeb
- *
- */
-/**
- * @author hyuge_weeb
- *
- */
-/**
- * @author hyuge_weeb
- *
- */
 
 public class ZwiftEventsPage {
 	
